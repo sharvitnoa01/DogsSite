@@ -1568,9 +1568,13 @@ html {
 html, body {
     height: 100%;
 }
-
+/* נועה לחזור */
 body {
-    background: var(--color-body);
+     /* background-image: url("/Flare_1_0_0/images/try-photo.jpg");
+    background-size: cover;        
+    background-position: center;  
+    background-repeat: no-repeat;   */
+     background: var(--color-body);
     font-family: var(--font-1);
     font-size: var(--text-size);
     font-style: normal;
@@ -2931,7 +2935,11 @@ input::-moz-focus-inner {
     line-height: var(--vspace-1_75);
     margin-top: 0;
 }
+.textAboutUs{
+    font-size: 30px;
+    text-align: right;
 
+}
 .item-title {
     font-family: var(--font-2);
     font-weight: 500;
