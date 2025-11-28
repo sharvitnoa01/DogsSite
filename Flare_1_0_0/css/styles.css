@@ -3502,9 +3502,9 @@ input::-moz-focus-inner {
     overflow: hidden;
     position: relative;
 }
-
+/* נועה לחזור */
 .s-hero__bg {
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url(/Flare_1_0_0//images//Jimmy2.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
