@@ -1689,6 +1689,33 @@ h6, .h6 {
     text-transform: uppercase;
     letter-spacing: .22em;
 }
+.future-block {
+    direction: rtl;
+    text-align: right;
+}
+
+.future-text {
+    max-width: 650px;
+    font-size: 1.35rem;
+    line-height: 2;
+    color: #e0e0e0;
+    margin-top: 20px;
+}
+/* בלוקים בעברית */
+.rtl-block {
+    direction: rtl;
+    text-align: right;
+}
+
+/* טקסט אחיד לכל הסקשנים */
+.section-main-text {
+    max-width: 650px;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    line-height: 2;
+    color: #e3e3e3;
+}
+
 
 .lead, .attention-getter {
     font-family: var(--font-1);
@@ -2940,6 +2967,22 @@ input::-moz-focus-inner {
     text-align: right;
 
 }
+/* בלוק קצת עלינו - יישור ימין והגדרות עברית */
+.about-us-block {
+    direction: rtl;
+    text-align: right;
+}
+
+/* טקסט גדול וברור כמו ג'ימי וניקה */
+.about-us-text {
+    max-width: 650px;
+    line-height: 2;
+    font-size: 1.9rem;
+    color: var(--color-text);
+    margin-top: 20px;
+}
+
+
 .item-title {
     font-family: var(--font-2);
     font-weight: 500;
@@ -3599,7 +3642,7 @@ input::-moz-focus-inner {
 
 /* hero content about
  * ----------------------------------------------- */
-.s-hero__content-about {
+.s-dogs-content-about {
     font-family: var(--font-2);
     font-weight: 400;
     font-size: 3.6rem;
@@ -3609,7 +3652,7 @@ input::-moz-focus-inner {
     position: relative;
 }
 
-.s-hero__content-about::before {
+.s-dogs-content-about::before {
     content: "";
     display: block;
     height: 1px;
@@ -3620,7 +3663,7 @@ input::-moz-focus-inner {
     top: .8em;
 }
 
-.s-hero__content-about p {
+.s-dogs-content-about p {
     margin-bottom: var(--vspace-2);
 }
 
@@ -3861,7 +3904,7 @@ html.no-csstransitions .s-hero__content {
     .s-hero__content h1 {
         font-size: 20rem;
     }
-    .s-hero__content-about {
+    .s-dogs-content-about {
         font-size: 3.3rem;
     }
     .s-hero__video-link {
@@ -3889,10 +3932,10 @@ html.no-csstransitions .s-hero__content {
     .s-hero__content {
         max-width: 700px;
     }
-    .s-hero__content-about {
+    .s-dogs-content-about {
         padding-left: .6em;
     }
-    .s-hero__content-about::before {
+    .s-dogs-content-about::before {
         display: none;
     }
     .s-hero__video {
@@ -3971,7 +4014,7 @@ html.no-csstransitions .s-hero__content {
     .s-hero__content h1 {
         font-size: 16rem;
     }
-    .s-hero__content-about {
+    .s-dogs-content-about {
         font-size: 2.8rem;
     }
     .s-hero__content-social, .s-hero__video {
@@ -3983,10 +4026,10 @@ html.no-csstransitions .s-hero__content {
     .s-hero__content h1 {
         font-size: 28vw;
     }
-    .s-hero__content-about {
+    .s-dogs-content-about {
         padding-right: 15vw;
     }
-    .s-hero__content-about br {
+    .s-dogs-content-about br {
         display: none;
     }
     .s-hero__scroll {
@@ -4002,7 +4045,7 @@ html.no-csstransitions .s-hero__content {
         left: -6rem;
         bottom: .6em;
     }
-    .s-hero__content-about {
+    .s-dogs-content-about {
         font-size: 2.6rem;
         padding-right: 4rem;
         padding-left: .5em;
@@ -4022,7 +4065,7 @@ html.no-csstransitions .s-hero__content {
     .s-hero__content {
         padding-bottom: 14vh;
     }
-    .s-hero__content-about {
+    .s-dogs-content-about {
         font-size: 2.2rem;
         padding-right: 6rem;
     }
