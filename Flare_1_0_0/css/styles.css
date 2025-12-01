@@ -1568,9 +1568,13 @@ html {
 html, body {
     height: 100%;
 }
-
+/* נועה לחזור */
 body {
-    background: var(--color-body);
+     /* background-image: url("/Flare_1_0_0/images/try-photo.jpg");
+    background-size: cover;        
+    background-position: center;  
+    background-repeat: no-repeat;   */
+     background: var(--color-body);
     font-family: var(--font-1);
     font-size: var(--text-size);
     font-style: normal;
@@ -1685,6 +1689,32 @@ h6, .h6 {
     text-transform: uppercase;
     letter-spacing: .22em;
 }
+.future-block {
+    direction: rtl;
+    text-align: right;
+}
+
+.future-text {
+    max-width: 650px;
+    font-size: 1.35rem;
+    line-height: 2;
+    color: #e0e0e0;
+    margin-top: 20px;
+}
+.rtl-block {
+    direction: rtl;
+    text-align: right;
+}
+
+.section-main-text {
+    max-width: 650px;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    line-height: 2;
+    color: #e3e3e3;
+}
+
+
 
 .lead, .attention-getter {
     font-family: var(--font-1);
@@ -2931,6 +2961,26 @@ input::-moz-focus-inner {
     line-height: var(--vspace-1_75);
     margin-top: 0;
 }
+.textAboutUs{
+    font-size: 30px;
+    text-align: right;
+
+}
+/* בלוק קצת עלינו - יישור ימין והגדרות עברית */
+.about-us-block {
+    direction: rtl;
+    text-align: right;
+}
+
+/* טקסט גדול וברור כמו ג'ימי וניקה */
+.about-us-text {
+    max-width: 650px;
+    line-height: 2;
+    font-size: 1.9rem;
+    color: var(--color-text);
+    margin-top: 20px;
+}
+
 
 .item-title {
     font-family: var(--font-2);
@@ -3125,7 +3175,7 @@ input::-moz-focus-inner {
     top: calc(50% - 2px);
     height:100px;
     width:100px;
-    top:70px;
+    top:60px;
 }
 
 .s-header__logo a {
@@ -3136,8 +3186,8 @@ input::-moz-focus-inner {
 }
 
 .s-header__logo img {
-    width: 68px;
-    height: 10px;
+    width: 80px;
+    height: 80px;
     margin-bottom: 0;
 }
 
@@ -3472,8 +3522,35 @@ input::-moz-focus-inner {
         transform: translateY(0.3rem);
     }
 }
+/* Meet Jimmy
+=======================================*/
+.JimmyPhoto {
+    width: 300px;
+    height: 300px;
+    border: solid 4px black;
+    /* height: auto; */
+}
 
+.NikaPhoto {
+    width: 300px;
+    height: 300px;
+    border: solid 4px black;
+    /* height: auto; */
+}
+/* נועה לחזור */
+.future-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.future-image {
+    max-width: 400px;  /* גודל מקסימלי לתמונה */
+    width: 100%;       /* שיהיה רספונסיבי */
+    height: auto;
+    display: block;
+    border-radius: 12px;  /* אם בא לך פינות מעוגלות, אפשר למחוק */
+}
 
 /* ===================================================================
  * # hero
@@ -3487,9 +3564,8 @@ input::-moz-focus-inner {
     overflow: hidden;
     position: relative;
 }
-
 .s-hero__bg {
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url(/Flare_1_0_0/images/Jimmy&Nika2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3537,6 +3613,8 @@ input::-moz-focus-inner {
     padding-top: 20vh;
     padding-bottom: 7vh;
     position: relative;
+    direction: rtl;
+    text-align: left;
 }
 
 .s-hero__content h1 {
@@ -3565,7 +3643,7 @@ input::-moz-focus-inner {
 
 /* hero content about
  * ----------------------------------------------- */
-.s-hero__content-about {
+.s-dogs-content-about {
     font-family: var(--font-2);
     font-weight: 400;
     font-size: 3.6rem;
@@ -3573,9 +3651,12 @@ input::-moz-focus-inner {
     color: var(--color-white);
     padding-left: 3.6em;
     position: relative;
+    text-align: left;
+    direction: rtl;
+    
 }
 
-.s-hero__content-about::before {
+.s-dogs-content-about::before {
     content: "";
     display: block;
     height: 1px;
@@ -3586,7 +3667,7 @@ input::-moz-focus-inner {
     top: .8em;
 }
 
-.s-hero__content-about p {
+.s-dogs-content-about p {
     margin-bottom: var(--vspace-2);
 }
 
@@ -3827,7 +3908,7 @@ html.no-csstransitions .s-hero__content {
     .s-hero__content h1 {
         font-size: 20rem;
     }
-    .s-hero__content-about {
+    .s-dogs-content-about {
         font-size: 3.3rem;
     }
     .s-hero__video-link {
@@ -3855,10 +3936,10 @@ html.no-csstransitions .s-hero__content {
     .s-hero__content {
         max-width: 700px;
     }
-    .s-hero__content-about {
+    .s-dogs-content-about {
         padding-left: .6em;
     }
-    .s-hero__content-about::before {
+    .s-dogs-content-about::before {
         display: none;
     }
     .s-hero__video {
@@ -3937,7 +4018,7 @@ html.no-csstransitions .s-hero__content {
     .s-hero__content h1 {
         font-size: 16rem;
     }
-    .s-hero__content-about {
+    .s-dogs-content-about {
         font-size: 2.8rem;
     }
     .s-hero__content-social, .s-hero__video {
@@ -3949,10 +4030,10 @@ html.no-csstransitions .s-hero__content {
     .s-hero__content h1 {
         font-size: 28vw;
     }
-    .s-hero__content-about {
+    .s-dogs-content-about {
         padding-right: 15vw;
     }
-    .s-hero__content-about br {
+    .s-dogs-content-about br {
         display: none;
     }
     .s-hero__scroll {
@@ -3968,7 +4049,7 @@ html.no-csstransitions .s-hero__content {
         left: -6rem;
         bottom: .6em;
     }
-    .s-hero__content-about {
+    .s-dogs-content-about {
         font-size: 2.6rem;
         padding-right: 4rem;
         padding-left: .5em;
@@ -3988,7 +4069,7 @@ html.no-csstransitions .s-hero__content {
     .s-hero__content {
         padding-bottom: 14vh;
     }
-    .s-hero__content-about {
+    .s-dogs-content-about {
         font-size: 2.2rem;
         padding-right: 6rem;
     }
