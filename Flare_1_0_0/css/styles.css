@@ -1701,13 +1701,11 @@ h6, .h6 {
     color: #e0e0e0;
     margin-top: 20px;
 }
-/* בלוקים בעברית */
 .rtl-block {
     direction: rtl;
     text-align: right;
 }
 
-/* טקסט אחיד לכל הסקשנים */
 .section-main-text {
     max-width: 650px;
     margin-top: 20px;
@@ -1715,6 +1713,7 @@ h6, .h6 {
     line-height: 2;
     color: #e3e3e3;
 }
+
 
 
 .lead, .attention-getter {
