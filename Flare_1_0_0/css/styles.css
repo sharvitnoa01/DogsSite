@@ -3565,7 +3565,7 @@ input::-moz-focus-inner {
     position: relative;
 }
 .s-hero__bg {
-    background-image: url(/Flare_1_0_0/images/Jimmy&Nika2.png);
+background-image: url("../images/Jimmy&Nika2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
